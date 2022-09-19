@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 1) 16%,
+    rgba(111, 17, 17, 1) 38%,
+    rgba(168, 12, 12, 1) 60%,
+    rgba(227, 25, 25, 1) 80%,
+    rgba(255, 0, 0, 1) 93%
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+/*light mode*/
+
+#instaHollodron {
+  height: 30px;
+  margin-left: 10px;
+}
+
+#linkGithub {
+  text-decoration: none;
+  color: #8e1616;
+}
+
+#imgPerfil {
+  border-radius: 360px;
+  max-height: 160px;
+  box-shadow: 0px 5px 5px rgba(142, 22, 22, 0.25);
+}
+
+.cabecalho{
+  display:flex;
+  justify-content:space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.container {
+  background: black;
+  color: #dedede;
+  margin: 64px;
+  border-radius: 45px;
+  box-shadow: 6px 6px 6px #8e1616;
+  padding: 64px;
+}
+
+/* .titulo-projects {
+  line-height: 56px;
+  text-align: center;
+  display: flex;
+  font-size: 40px;
+  font-weight: 700;
+} */
+
+.titulo {
+  margin-left: 40px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button{
+  align-self:flex-end;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 1) 16%,
+    rgba(111, 17, 17, 1) 38%,
+    rgba(168, 12, 12, 1) 60%,
+    rgba(227, 25, 25, 1) 80%,
+    rgba(255, 0, 0, 1) 93%
+  );
+  box-shadow: 2px 2px 2px #8e1616;
+  color:#dedede;
+  border-radius:20px;
+}
+
+.lista {
+  text-decoration: none;
+  color: #dedede;
+}
+
+.lista a {
+  text-decoration: none;
+  color: #dedede;
+}
+
+.projetos {
+  margin-top:32px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 1) 16%,
+    rgba(111, 17, 17, 1) 38%,
+    rgba(168, 12, 12, 1) 60%,
+    rgba(227, 25, 25, 1) 80%,
+    rgba(255, 0, 0, 1) 93%
+  );
+  padding: 32px;
+  box-shadow: 2px 2px 4px #8e1616;
+  border-radius: 20px;  
+}
+
+/* 
+.projetos {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-top: 60px;
+  box-shadow: 6px 6px 6px #8e1616;
+  padding: 64px;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 1) 16%,
+    rgba(111, 17, 17, 1) 38%,
+    rgba(168, 12, 12, 1) 60%,
+    rgba(227, 25, 25, 1) 80%,
+    rgba(255, 0, 0, 1) 93%
+  );
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ */
+
+.titulo-projetos {
+  list-style:none;
+  font-weight:700;
+  font-size:36px;
+}
+
+.projetos-item {
+  list-style-type:none;
+  font-size:24px;
+  font-weight:400;
+  line-height:10px;
+}
+
+.projetos-item a{
+  text-decoration:none;
+  color:#dedede;
+}
+
+/*dark mode*/
+
+.dark {
+  background: rgb(16,16,18);
+  background: linear-gradient(270deg, rgba(16,16,18,1) 16%, rgba(131,64,181,1) 38%, rgba(79,37,131,1) 60%, rgba(94,31,177,1) 80%, rgba(106,0,255,1) 93%);
+}
+
+.dark .container {
+  background: white;
+  color: black;
+  margin: 64px;
+  border-radius: 45px;
+  box-shadow: 6px 6px 6px #5e1fb1;
+  padding: 64px;
+}
+
+.dark .projetos {
+  margin-top:32px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(16,16,18);
+  background: linear-gradient(270deg, rgba(16,16,18,1) 16%, rgba(131,64,181,1) 38%, rgba(79,37,131,1) 60%, rgba(94,31,177,1) 80%, rgba(106,0,255,1) 93%);
+  padding: 32px;
+  box-shadow: 2px 2px 2px #5e1fb1;
+  border-radius: 20px;
+  color:white;
+}
+
+.dark .tema button{
+  align-self:flex-end;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+  background: rgb(16,16,18);
+  background: linear-gradient(270deg, rgba(16,16,18,1) 16%, rgba(131,64,181,1) 38%, rgba(79,37,131,1) 60%, rgba(94,31,177,1) 80%, rgba(106,0,255,1) 93%);
+  box-shadow: 2px 2px 2px #5e1fb1;
+  color:#dedede;
+  border-radius:20px;
+}
+
+.dark #linkGithub {
+  text-decoration: none;
+  color: #6a00ff;
+}
